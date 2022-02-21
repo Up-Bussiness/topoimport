@@ -1,0 +1,615 @@
+/*Normal Services*/
+	#servicios
+	{
+	height: 100vh;
+	}
+		#servicios h1
+		{
+		font-size: 4vw;
+		width: 50vw;
+		display: block;
+		text-align: center;
+		margin: 5vh auto 7vh auto;
+		border-bottom: solid #DE403B 5px;
+		}
+	#servicio1
+	{
+	position: absolute;
+	height: 65vh;
+	width: 30vw;
+	margin: 0 0 0 2.5vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio1:hover
+		{
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+		border-radius: 10px;
+		}
+		#servicio1 h2
+		{
+		font-size: 2vw;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		padding: 2vh 0 2vh 0;
+		}
+		#servicio1 p
+		{
+		font-size: 1.5vw;
+		padding: 0 1.5vw 2vh 1.5vw;
+		color: rgb(255, 255, 255);
+		}
+		#servicio1 a
+		{
+		background-color: #003C82;
+		position: absolute;
+		bottom: 0;
+		text-decoration: none;
+		font-size: 1.7vw;
+		padding: 2vh 0 2vh 0;
+		color: rgb(255, 255, 255);
+		border-top: solid rgb(255, 255, 255); 2px;
+		display: block;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+		z-index: 2;
+		}
+			#servicio1 a:hover
+			{
+			background-color: rgb(255, 255, 255);
+			color: rgb(0, 0, 0);
+			}
+	#servicio2
+	{
+	position: absolute;
+	height: 65vh;
+	width: 30vw;
+	margin: 0 0 0 35vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio2:hover
+		{
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+		border-radius: 10px;
+		}
+		#servicio2 h2
+		{
+		font-size: 2vw;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		padding: 2vh 0 2vh 0;
+		}
+		#servicio2 p
+		{
+		font-size: 1.5vw;
+		padding: 0 1.5vw 2vh 1.5vw;
+		color: rgb(255, 255, 255);
+		}
+		#servicio2 a
+		{
+		background-color: #003C82;
+		position: absolute;
+		bottom: 0;
+		text-decoration: none;
+		font-size: 1.7vw;
+		padding: 2vh 0 2vh 0;
+		color: rgb(255, 255, 255);
+		border-top: solid rgb(255, 255, 255); 2px;
+		display: block;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+		z-index: 2;
+		}
+			#servicio2 a:hover
+			{
+			background-color: rgb(255, 255, 255);
+			color: rgb(0, 0, 0);
+			}
+	#servicio3
+	{
+	position: absolute;
+	height: 65vh;
+	width: 30vw;
+	margin: 0 0 0 67.5vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio3:hover
+		{
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+		border-radius: 10px;
+		}
+		#servicio3 h2
+		{
+		font-size: 2vw;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		padding: 2vh 0 2vh 0;
+		}
+		#servicio3 p
+		{
+		font-size: 1.5vw;
+		padding: 0 1.5vw 2vh 1.5vw;
+		color: rgb(255, 255, 255);
+		}
+		#servicio3 a
+		{
+		background-color: #003C82;
+		position: absolute;
+		bottom: 0;
+		text-decoration: none;
+		font-size: 1.7vw;
+		padding: 2vh 0 2vh 0;
+		color: rgb(255, 255, 255);
+		border-top: solid rgb(255, 255, 255); 2px;
+		display: block;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+		z-index: 2;
+		}
+			#servicio3 a:hover
+			{
+			background-color: rgb(255, 255, 255);
+			color: rgb(0, 0, 0);
+			}
+	.imgser
+	{
+	position: absolute;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	bottom: 6vh;
+	transition: 0.3s;
+	z-index: 1;
+	}
+		.imgser:hover
+		{
+		border-radius: 15px;
+		transform: scale(1.1);
+		}
+/***********************************Responsive***********************************/
+@media screen and (max-width: 800px)
+{
+	#servicios
+	{
+	height: 150vh;
+	}
+		#servicios h1
+		{
+		font-size: 4.5vw;
+		}
+	#servicio1
+	{
+	position: absolute;
+	height: 65vh;
+	width: 45vw;
+	margin: 0 0 0 2.5vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio1 h2
+		{
+		font-size: 3vw;
+		}
+		#servicio1 p
+		{
+		font-size: 2vw;
+		text-align: center;
+		}
+		#servicio1 img
+		{
+		height: 60%;
+		}
+		#servicio1 a
+		{
+		font-size: 2.5vw;
+		}
+	#servicio2
+	{
+	position: absolute;
+	height: 65vh;
+	width: 45vw;
+	margin: 0 0 0 50vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio2 h2
+		{
+		font-size: 3vw;
+		}
+		#servicio2 p
+		{
+		font-size: 2vw;
+		text-align: center;
+		}
+		#servicio2 img
+		{
+		height: 60%;
+		}
+		#servicio2 a
+		{
+		font-size: 2.5vw;
+		}
+	#servicio3
+	{
+	position: absolute;
+	height: 65vh;
+	width: 45vw;
+	margin: 70vh 0 0 27.5vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio3 h2
+		{
+		font-size: 3vw;
+		}
+		#servicio3 p
+		{
+		font-size: 2vw;
+		text-align: center;
+		}
+		#servicio3 img
+		{
+		height: 60%;
+		}
+		#servicio3 a
+		{
+		font-size: 2.5vw;
+		}
+}
+
+@media screen and (max-width: 600px)
+{
+	#servicios
+	{
+	height: 240vh;
+	}
+		#servicios h1
+		{
+		font-size: 5.5vw;
+		width: 50%;
+		margin: 0 25% 2.5vh 25%;
+		}
+	#servicio1
+	{
+	position: absolute;
+	height: 70vh;
+	width: 80vw;
+	margin: 0 0 0 10vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio1 h2
+		{
+		font-size: 4.5vw;
+		}
+		#servicio1 p
+		{
+		font-size: 2.5vw;
+		text-align: center;
+		}
+		#servicio1 img
+		{
+		height: 60%;
+		}
+		#servicio1 a
+		{
+		font-size: 4vw;
+		}
+	#servicio2
+	{
+	position: absolute;
+	height: 70vh;
+	width: 80vw;
+	margin: 75vh 0 0 10vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio2 h2
+		{
+		font-size: 4.5vw;
+		}
+		#servicio2 p
+		{
+		font-size: 2.5vw;
+		text-align: center;
+		}
+		#servicio2 img
+		{
+		height: 60%;
+		}
+		#servicio2 a
+		{
+		font-size: 4vw;
+		}
+	#servicio3
+	{
+	position: absolute;
+	height: 70vh;
+	width: 80vw;
+	margin: 150vh 0 0 10vw;
+	/*border: solid black 2px;*/
+	background-color: #093A85;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+		#servicio3 h2
+		{
+		font-size: 4.5vw;
+		}
+		#servicio3 p
+		{
+		font-size: 2.5vw;
+		text-align: center;
+		}
+		#servicio3 img
+		{
+		height: 60%;
+		}
+		#servicio3 a
+		{
+		font-size: 4vw;
+		}
+}
+
+@media screen and (max-width: 500px)
+{
+	#servicios
+	{
+	height: 240vh;
+	}
+		#servicios h1
+		{
+		font-size: 8vw;
+		width: 50%;
+		margin: 0 25% 2.5vh 25%;
+		}
+	#servicio1
+	{
+	height: 70vh;
+	width: 80vw;
+	margin: 0 0 0 10vw;
+	}
+		#servicio1 h2
+		{
+		font-size: 5vw;
+		}
+		#servicio1 p
+		{
+		font-size: 3.5vw;
+		}
+		#servicio1 img
+		{
+		height: 60%;
+		}
+		#servicio1 a
+		{
+		font-size: 5vw;
+		}
+	#servicio2
+	{
+	height: 70vh;
+	width: 80vw;
+	margin: 75vh 0 0 10vw;
+	}
+		#servicio2 h2
+		{
+		font-size: 5vw;
+		}
+		#servicio2 p
+		{
+		font-size: 3.5vw;
+		}
+		#servicio2 img
+		{
+		height: 60%;
+		}
+		#servicio2 a
+		{
+		font-size: 5vw;
+		}
+	#servicio3
+	{
+	height: 70vh;
+	width: 80vw;
+	margin: 150vh 0 0 10vw;
+	}
+		#servicio3 h2
+		{
+		font-size: 5vw;
+		}
+		#servicio3 p
+		{
+		font-size: 3.5vw;
+		}
+		#servicio3 img
+		{
+		height: 60%;
+		}
+		#servicio3 a
+		{
+		font-size: 5vw;
+		}
+}
+
+@media screen and (max-width: 400px)
+{
+	#servicios
+	{
+	height: 220vh;
+	}
+		#servicios h1
+		{
+		font-size: 9vw;
+		width: 60%;
+		margin: 0 20% 2.5vh 20%;
+		}
+	#servicio1
+	{
+	height: 65vh;
+	width: 80vw;
+	margin: 0 0 0 10vw;
+	}
+		#servicio1 h2
+		{
+		font-size: 5.5vw;
+		}
+		#servicio1 p
+		{
+		font-size: 4vw;
+		}
+		#servicio1 img
+		{
+		height: 60%;
+		}
+		#servicio1 a
+		{
+		font-size: 5.5vw;
+		}
+	#servicio2
+	{
+	height: 65vh;
+	width: 80vw;
+	margin: 70vh 0 0 10vw;
+	}
+		#servicio2 h2
+		{
+		font-size: 5.5vw;
+		}
+		#servicio2 p
+		{
+		font-size: 4vw;
+		}
+		#servicio2 img
+		{
+		height: 60%;
+		}
+		#servicio2 a
+		{
+		font-size: 5.5vw;
+		}
+	#servicio3
+	{
+	height: 65vh;
+	width: 80vw;
+	margin: 140vh 0 0 10vw;
+	}
+		#servicio3 h2
+		{
+		font-size: 5.5vw;
+		}
+		#servicio3 p
+		{
+		font-size: 4vw;
+		}
+		#servicio3 img
+		{
+		height: 60%;
+		}
+		#servicio3 a
+		{
+		font-size: 5.5vw;
+		}
+}
+
+@media screen and (max-width: 400px)
+{
+	#servicios
+	{
+	height: 220vh;
+	}
+		#servicios h1
+		{
+		font-size: 10vw;
+		width: 60%;
+		margin: 0 20% 2.5vh 20%;
+		}
+	#servicio1
+	{
+	height: 60vh;
+	width: 80vw;
+	margin: 0 0 0 10vw;
+	}
+		#servicio1 h2
+		{
+		font-size: 7vw;
+		}
+		#servicio1 p
+		{
+		font-size: 5vw;
+		}
+		#servicio1 img
+		{
+		height: 50%;
+		}
+		#servicio1 a
+		{
+		font-size: 6.5vw;
+		}
+	#servicio2
+	{
+	height: 60vh;
+	width: 80vw;
+	margin: 70vh 0 0 10vw;
+	}
+		#servicio2 h2
+		{
+		font-size: 7vw;
+		}
+		#servicio2 p
+		{
+		font-size: 5vw;
+		}
+		#servicio2 img
+		{
+		height: 50%;
+		}
+		#servicio2 a
+		{
+		font-size: 6.5vw;
+		}
+	#servicio3
+	{
+	height: 60vh;
+	width: 80vw;
+	margin: 140vh 0 0 10vw;
+	}
+		#servicio3 h2
+		{
+		font-size: 7vw;
+		}
+		#servicio3 p
+		{
+		font-size: 5vw;
+		}
+		#servicio3 img
+		{
+		height: 50%;
+		}
+		#servicio3 a
+		{
+		font-size: 6.5vw;
+		}
+}

@@ -1,0 +1,572 @@
+/*Normal Footer*/
+	footer
+	{
+	height: 60vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 33.3%;
+	/*border: solid green 2px;*/
+	}
+		#logo img
+		{
+		margin: 5vh auto 0 auto;
+		height: 20vh;
+		display: block;
+		}
+
+		#logo p
+		{
+		margin: 3vh auto 0 auto;
+		width: 80%;
+		font-size: 1.2vw;
+		color: rgb(255, 255, 255);
+		text-align: justify;
+		display: block;
+		}
+		#logo h2
+		{
+		margin: 3vh auto 0 auto;
+		width: 80%;
+		font-size: 1vw;
+		color: rgba(255, 255, 255, 0.5);
+		text-align: justify;
+		display: block;
+		}
+		#logo a
+		{
+		color: rgba(255, 255, 255, 0.5);
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 33.3%;
+	margin: 0 0 0 33.3%;
+	/*border: solid green 2px;*/
+	}
+		#maps h1
+		{
+		position: absolute;
+		font-size: 2vw;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		border-bottom: solid #2E87BB 4px;
+		/*border: solid green 2px;*/
+		width: 70%;
+		margin: 2vh 15% 0 15%;
+		padding: 0 0 1vh 0;
+		display: block;
+		}
+		#map
+		{
+		display: block;
+		margin: 15% auto 0 auto;
+		height: 70%;
+		width: 90%;
+		border-radius: 10px;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 33.3%;
+	margin: 0 0 0 66.6%;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 2vw;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		border-bottom: solid #2E87BB 4px;
+		width: 50%;
+		margin: 2vh auto 2vh auto;
+		padding: 0 0 1vh 0;
+		display: block;
+		}
+		.imgc
+		{
+		position: relative;
+		width: 5%;
+		margin: 0 0.3vw 0 0.3vw;
+		}
+		#contacto p
+		{
+		margin: 0 0 0 1vw;
+		font-size: 1.6vw;
+		color: rgb(255, 255, 255);
+		/*border: solid green 2px;*/
+		}
+		#contacto h2
+		{
+		font-size: 2vw;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		border-bottom: solid #2E87BB 4px;
+		/*border: solid green 2px;*/
+		width: 50%;
+		margin: 2vh 25% 0 25%;
+		padding: 0 0 1vh 0;
+		display: block;
+		}
+		#imgd
+		{
+		width: 55%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		margin: 2vh 0 0 0;
+		height: 8vh;
+		}
+/***********************************Reponsive***********************************/
+@media screen and (max-width: 800px)
+{
+	footer
+	{
+	height: 100vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 50vh 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#logo p
+		{
+		font-size: 1.5vw;
+		}
+		#logo h2
+		{
+		font-size: 1vw;
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	margin: 0 0 0 0%;
+	/*border: solid green 2px;*/
+	}
+		#maps h1
+		{
+		font-size: 2.5vw;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	margin: 0 0 0 50%;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 2.5vw;
+		}
+		#contacto h2
+		{
+		font-size: 2.5vw;
+		}
+		#contacto p
+		{
+		font-size: 2vw;
+		}
+		#imgd
+		{
+		width: 50%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		height: 6vw;
+		}
+}
+
+@media screen and (max-width: 700px)
+{
+	footer
+	{
+	height: 100vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 50vh 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#logo p
+		{
+		font-size: 1.8vw;
+		}
+		#logo h2
+		{
+		font-size: 1.5vw;
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	margin: 0 0 0 0%;
+	/*border: solid green 2px;*/
+	}
+		#maps h1
+		{
+		font-size: 3vw;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	margin: 0 0 0 50%;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 3vw;
+		}
+		#contacto h2
+		{
+		font-size: 3vw;
+		}
+		#contacto p
+		{
+		font-size: 2.5vw;
+		}
+		#imgd
+		{
+		width: 55%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		height: 6.5vw;
+		}
+}
+
+@media screen and (max-width: 600px)
+{
+	footer
+	{
+	height: 150vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 100vh 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#logo p
+		{
+		font-size: 2vw;
+		}
+		#logo h2
+		{
+		font-size: 1.5vw;
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 50vh 0 0 0%;
+	/*border: solid green 2px;*/
+	}
+		#map
+		{
+		margin: 10vh auto 0 auto;
+		}
+		#maps h1
+		{
+		font-size: 4vw;
+		width: 50%;
+		margin: 2vh 25% 0 25%;
+		padding: 0 0 1vh 0;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 0 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 4vw;
+		}
+		#contacto h2
+		{
+		font-size: 4vw;
+		}
+		#contacto p
+		{
+		font-size: 3vw;
+		}
+		#imgd
+		{
+		width: 35%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		height: 7.5vw;
+		}
+		.imgc
+		{
+		margin: 0 1vw 0 1vw;
+		}
+}
+
+@media screen and (max-width: 500px)
+{
+	footer
+	{
+	height: 150vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 100vh 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#logo p
+		{
+		font-size: 2.5vw;
+		}
+		#logo h2
+		{
+		font-size: 2vw;
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 50vh 0 0 0%;
+	/*border: solid green 2px;*/
+	}
+		#map
+		{
+		margin: 10vh auto 0 auto;
+		}
+		#maps h1
+		{
+		font-size: 5vw;
+		width: 50%;
+		margin: 2vh 25% 0 25%;
+		padding: 0 0 1vh 0;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 0 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 5vw;
+		}
+		#contacto h2
+		{
+		font-size: 5vw;
+		}
+		#contacto p
+		{
+		font-size: 3.5vw;
+		}
+		#imgd
+		{
+		width: 35%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		height: 8vw;
+		}
+		.imgc
+		{
+		margin: 0 1.5vw 0 1.5vw;
+		}
+}
+
+@media screen and (max-width: 400px)
+{
+	footer
+	{
+	height: 150vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 100vh 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#logo p
+		{
+		font-size: 3vw;
+		}
+		#logo h2
+		{
+		font-size: 2.5vw;
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 50vh 0 0 0%;
+	/*border: solid green 2px;*/
+	}
+		#map
+		{
+		margin: 10vh auto 0 auto;
+		}
+		#maps h1
+		{
+		font-size: 6vw;
+		width: 60%;
+		margin: 2vh 20% 0 20%;
+		padding: 0 0 1vh 0;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 0 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 6vw;
+		}
+		#contacto h2
+		{
+		font-size: 6vw;
+		}
+		#contacto p
+		{
+		font-size: 4vw;
+		}
+		#imgd
+		{
+		width: 65%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		height: 15vw;
+		}
+		.imgc
+		{
+		margin: 0 1.5vw 0 1.5vw;
+		}
+}
+
+@media screen and (max-width: 300px)
+{
+	footer
+	{
+	height: 150vh;
+	background-color: #252830;
+	}
+	#logo
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 100vh 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#logo p
+		{
+		font-size: 3.5vw;
+		}
+		#logo h2
+		{
+		font-size: 3vw;
+		}
+	#maps
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 50vh 0 0 0%;
+	/*border: solid green 2px;*/
+	}
+		#map
+		{
+		margin: 10vh auto 0 auto;
+		}
+		#maps h1
+		{
+		font-size: 6.5vw;
+		width: 70%;
+		margin: 2vh 15% 0 15%;
+		padding: 0 0 1vh 0;
+		}
+	#contacto
+	{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	margin: 0 0 0 0;
+	/*border: solid green 2px;*/
+	}
+		#contacto h1
+		{
+		font-size: 6.5vw;
+		}
+		#contacto h2
+		{
+		font-size: 6.5vw;
+		}
+		#contacto p
+		{
+		font-size: 5.5vw;
+		}
+		#imgd
+		{
+		width: 75%;
+		margin: 0 auto 0 auto;
+		/*border: solid green 2px;*/
+		}
+		.imgs
+		{
+		height: 16.5vw;
+		}
+		.imgc
+		{
+		margin: 0 1.5vw 0 1.5vw;
+		}
+}
